@@ -1,0 +1,183 @@
+body {
+    display: block;
+}
+
+.masonrywrap {
+    position: relative;
+    column-count: 3;
+}
+
+.titulo {
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 200px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.caixa1 {
+    float: left;
+    width: 700px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.caixa2 {
+    float: right;
+    width: 450px;
+    height: 390px;
+    ;
+    margin: 29px;
+    margin-left: 10px;
+    margin-right: 45px;
+    border-radius: 3px;
+}
+
+.caixa3 {
+    float: right;
+    width: 450px;
+    height: 390px;
+    ;
+    margin: 29px;
+    margin-left: 10px;
+    margin-right: 45px;
+    margin-top: -1%;
+}
+
+.cursos, .cursos1 {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.caixa4 {
+    float: right;
+    margin: 10px;
+    margin-left: auto;
+    width: 400px;
+    text-align: center;
+    margin-top: -1px;
+    margin-right: 65px;
+    background-color: rgba(192, 192, 192, 0.534);
+    border-radius: 4px;
+}
+
+.galeria {
+    float: right;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 65px;
+    border-radius: 4px;
+    background-color: rgba(150, 150, 150, 0.856);
+}
+
+.escola {
+    width: 80%;
+    border-radius: 8%;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+#nome {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    ;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+.border {
+    border: 2px;
+}
+
+.email, .telefone, .morar {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.morar {
+    font-size: 95%;
+}
+
+.info2 {
+    font-size: 110%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.separar {
+    width: 100%;
+    border: 1px;
+    border-style: dashed;
+    color: rgb(0, 99, 0);
+}
+
+.info {
+    text-align: center;
+    font-size: 80%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+div.gallery {
+    border: 2px solid #ccc;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive1 {
+    padding: 6px;
+    float: left;
+    width: 40%;
+    margin-left: 40px;
+}
+
+.responsive2 {
+    padding: 6px;
+    float: left;
+    width: 40%;
+    margin-left: 5px;
+}
+
+.foto {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 150%;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.mais {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100%;
+    float: right;
+    padding: 6px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}

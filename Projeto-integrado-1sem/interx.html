@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/styleindex.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title> Inter X </title>
+</head>
+
+<body>
+
+    <!-- Barra de Menu e Navegação -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="interx.html"> Inter X </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="interx.html"> início <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html"> Login </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ficha_estudante.html" > Estudantes </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="perfilempresa.html"> Escolas </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Destinos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"> Viagens Pelo Brasil </a>
+                        <a class="dropdown-item" href="#"> América Latina </a>
+                        <a class="dropdown-item" href="#"> Africa </a>
+                        <a class="dropdown-item" href="#"> Ásia </a>
+                        <a class="dropdown-item" href="#"> Europa </a>
+                        <a class="dropdown-item" href="#"> Oceânia </a>
+                        <a class="dropdown-item" href="#"> Oriente Médio </a>
+                        <a class="dropdown-item" href="#"> </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"> Outros tipos de Experiências </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Interesses
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"> Culturas do Mundo </a>
+                        <a class="dropdown-item" href="#"> Espiritualidade </a>
+                        <a class="dropdown-item" href="#"> Idiomas </a>
+                        <a class="dropdown-item" href="#"> Universidades </a>
+                        <a class="dropdown-item" href="#"> Trabalho </a>
+                        <a class="dropdown-item" href="ranking.html"> Ranking de Países </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html"> Contato </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" method="GET" action="pesquisa.html">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> Pesquisar </button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Carrossel em baixo do menu só pra fazer estilo por enquanto..-->
+    <div class="container"> 
+    <div id="carouselExampleIndicators" class="carousel slide"  data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/roadtrip.jpeg" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-5"> Vá em busca de seus Sonhos </h1>
+                    <p class="lead"> Viaje pelo Centro Oeste Norte-Americano e descubra novos caminhos para sua vida!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/roadtrip2.jpeg" alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-5"> Vá em busca de seus Sonhos </h1>
+                    <p class="lead"> "Democracia é oportunizar a todos o mesmo ponto de partida. Quanto ao ponto de chegada, depende de cada um."
+                      Fernando Sabino </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/roadtrip4.jpeg" alt="Terceiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-5"> Vá em busca de seus Sonhos </h1>
+                    <p class="lead"> "Uma longa viagem de mil milhas inicia-se com o movimento de um pé."
+                      Lao-Tsé - Pensador Chinês </p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"> Anterior </span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"> Próximo </span>
+        </a>
+    </div>
+    </div>
+  </div>
+    <br>
+
+    <!-- Cards com os cursos e países principais -->
+
+    <div class="conatiner">
+        <div class="wrap">
+            
+            <div class="box one">
+                <div class="date">
+                    <h4>Curso de Anime</h4>
+                </div>
+                <h1>JAPÃO</h1>
+                <div class="poster p1">
+                    <h4></h4>
+                </div>
+            </div>
+            
+            <div class="box two">
+                <div class="date">
+                    <h4>Aprenda Italiano</h4>
+                </div>
+                <H1>ITALIA</H1>
+                <div class="poster p2">
+                    <h4></h4>
+                </div>
+            </div>
+            
+            <div class="box three">
+                <div class="date">
+                    <h4>Aulas de Português</h4>
+                </div>
+                <h1>BRASIL</h1>
+                <div class="poster p3">
+                    <h4></h4>
+                </div>
+            </div>
+            
+            <div class="box five">
+                <div class="date">
+                    <h4>Aprenda Inglês</h4>
+                </div>
+                <h1>E.U.A</h1>
+                <div class="poster p4">
+                    <h4></h4>
+                </div>
+            </div>
+            
+  <!-- Avaliações colocadas logo ao lado dos cards de países principais -->
+
+    <div id="text1">
+
+    <span class="heading">Avaliações</span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star"></span>
+    <p>4.1 de nota baseada em 254 Avaliações.</p>
+    <hr style="border:3px solid #f1f1f1">
+
+    <div class="row">
+        <div class="side">
+        <div>5 Estrelas</div>
+    </div>
+        <div class="middle">
+        <div class="bar-container">
+      <div class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>150</div>
+  </div>
+  <div class="side">
+    <div>4 Estrelas</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>63</div>
+  </div>
+  <div class="side">
+    <div>3 Estrelas</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>15</div>
+  </div>
+  <div class="side">
+    <div>2 Estrelas</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>6</div>
+  </div>
+  <div class="side">
+    <div>1 Estrelas</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>20</div>
+  </div>
+</div>
+<div >
+  <div><a href="feedback.html"> Nos avalie! </a> </div>
+</div>
+
+    </div> 
+
+    <div id="text2"> 
+
+    </div>
+
+<!-- Video Sobre Viagem e Intercâmbio -->
+
+    <div id="text5"> 
+          <video width="900" height="850" controls preload="auto">
+          <source src="img/movie.mp4" type="video/mp4">
+          </video>
+    </div>
+    
+<!-- Caixa com as principais e mais recentes notícias sobre intercâmbio no mundo -->
+
+    <div id="text4"> 
+
+        <p><a href="#">01. Série de Lives reúne destinos brasileiros para promover a valorização da turismo. </a></p>
+        <p><a href="#">02. Viagens e Turismo: Quais são os destinos e segmentos que devem vir à tona?.</a></p>
+        <p><a href="#">03. Cursos de turismo online: prepare-se para o futuro sem sair de casa.</a></p>
+        <p><a href="#">04. Isolamento Social: Boas práticas para ajudar parentes que estão no exterior.</a></p>
+
+    </div>
+
+<!-- Caixa com modelos de intercâmbio -->
+
+<div id="text7"> 
+  <div class="row">
+    <div class="col-sm-2.5">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"> Cursos de Idiomas </h5>
+          <p class="card-text"> Oito opções de linguas com possibilidade de imersão completa na cultura do país! 
+            Confira todas as instituições parceiras e conheça aqueles que te darão suporte e te acompanharão por todo o caminho rumo a novas descobertas.
+          </p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2.5">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"> Viagens Espirituais </h5>
+          <p class="card-text"> A cura da alma pode estar a distância de uma única boa ação. 
+            Descubra sua espiritualidade com destinos incríveis.
+            A singularidade de lugares que possuem eventos únicos e costumam mudar a vida de um viajante. </p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2.5">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"> Estudo e Trabalho </h5>
+          <p class="card-text"> Que tal aproveitar seu intercâmbio no exterior para, além de aprimorar seus estudos, ter experiência profissional?
+            Isso mesmo, no InterX isso é possível! As oportunidades mais incríveis dentro de sua área de formação estão a apenas um único contato.
+          Coloque tudo que aprendeu em prática e viva grandes experiências profissionais. </p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2.5">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"> Viagens em Grupo e Imersão Cultural </h5>
+          <p class="card-text"> Viagens ideais para aqueles que querem estar perto dos seus melhores amigos, e ao mesmo tempo explorar um novo mundo!
+         Compartilhar um destino com os mais próximos pode expandir seus horizontes e facilitar a imersão cultural única que você precisa! </p>
+          <a href="#" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+</div>
+        
+
+<!-- Indexação Google Maps para Sede da Empresa em SP -->
+
+    <div id="text6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.187706068294!2d-46.632795985383936!3d-23.561701067489086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce590a3e954701%3A0xc3b894a2f78bc9be!2sR.%20dos%20Tapes%20-%20Liberdade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003216-050!5e0!3m2!1spt-BR!2sbr!4v1588916685103!5m2!1spt-BR!2sbr" width="1485" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+<!-- Footer com o mapa completo do site -->
+
+    <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>Sobre</h6>
+          <p class="text-justify"> Somos uma empresa de viagens e pacotes de intercâmbio que proporcionam contatos com instituições ao redor de todo o globo, 
+            com o objetivo de proporcionar experiências únicas e inesquecíveis para aqueles que querem realizar seus sonhos.
+          </p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Destinos</h6>
+          <ul class="footer-links">
+            <li><a href="#">Brasil</a></li>
+            <li><a href="#">Espanha</a></li>
+            <li><a href="#">Japão</a></li>
+            <li><a href="#">Grécia</a></li>
+            <li><a href="#">E.U.A</a></li>
+            <li><a href="#">Canada</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Contato</h6>
+          <ul class="footer-links">
+            <li><a href="#">Sobre-nos</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Escolas</a></li>
+            <li><a href="#">Contratos</a></li>
+            <li><a href="#">Mapa</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2020 Todos os direitos reservado a 
+       <a href="#">InterX</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
